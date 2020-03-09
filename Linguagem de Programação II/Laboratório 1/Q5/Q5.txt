@@ -1,0 +1,3 @@
+O programa roda um loop 10 vezes, iniciando um contador como 1
+Caso esse contador, que incrementa a cada loop for impar, o programa
+imprime asteriscos, caso contrário, sinais de `+`
