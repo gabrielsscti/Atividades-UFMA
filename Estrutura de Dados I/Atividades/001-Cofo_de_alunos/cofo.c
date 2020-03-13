@@ -37,11 +37,11 @@ int cofRemove(Cofo *c, int key){
                 for(int j=i; j<c->nElms-1; j++)
                     c->elms[j] = c->elms[j+1];
                 c->nElms--;
-                return true;
+                return 1;
             }
         }
     }
-    return false;
+    return 0;
 }
 
 Aluno *cofQuery(Cofo *c, int key){
@@ -63,8 +63,8 @@ int cofDestroy(Cofo *c){
         if(c->nElms==0){
             free(c->elms);
             free(c);
-            return true;
+            return 1;
         }
     }
-    return false;
+    return 0;
 }
