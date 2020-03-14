@@ -2,3 +2,5 @@
 tempCodeRunnerFile.java
 *.exe
 *.out
+bin/
+bin/*
